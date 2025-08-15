@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>FakeReels</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+    <div class="reel-container">
+        <video id="reelVideo" autoplay loop muted playsinline>
+            <source src="sample-reel.mp4" type="video/mp4" />
+            Your browser does not support HTML video.
+        </video>
+        <div class="top-buttons">
+            <button class="btn small">Like</button>
+            <button class="btn small">Share</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
